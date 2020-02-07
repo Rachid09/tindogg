@@ -1,0 +1,173 @@
+ body{
+  font-family: "Montserrat",
+  sans-serif;
+  text-align: center;
+ 
+  margin: 0;
+ 
+}
+/* heading section */
+#title{
+  background-color: #ff4c68;
+  /* clip-path: polygon(0 0,100% 0,100% 75%,0 75%); */
+  
+}
+.navbar-brand{
+  font-family: "ubuntu" ,sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+p{
+  color: #8f8f8f;
+}
+h1{
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.6;
+  color: rgb(255, 255, 255);
+  
+}
+h2{
+  font-family: "Montessrat", sans-serif;
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 1.5;
+
+}
+
+.container-fluid{
+  padding:3% 15% 6%;
+  
+}
+ .navbar{
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 4.5rem;
+
+}
+.nav-item{
+  padding:0 18px ;
+ 
+}
+.nav-link{
+  font-family: 'Montserrat',sans-serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  
+}
+.download-button{
+  margin: 5% 3% 3% 0 ;
+
+}
+
+.iphone-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+  
+}
+/* Features section */
+
+#features{
+  padding: 9% 7%;
+  background-color: #fff;
+  position: relative;
+ 
+  
+
+}
+
+.icons{
+  color: #ef8172;
+  margin: 0 0 1rem 1rem;
+  
+
+}
+.icons:hover {
+  color:#ff4c68 ;
+}
+
+.features-box{
+  padding: 4%;
+  text-align: center;
+}
+
+/* testimonials section */
+ #testimonials {
+  background-color: #ef8172;
+  color: #fff;
+  text-align: center;
+ 
+}
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin : 1.5rem;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.press-images{
+  width: 15%;
+  margin: 1rem 2rem ;
+}
+.carousel-item{
+  padding:7% 11%;
+}
+
+/* PRICING SECTION */
+#pricing{
+  padding: 9%;
+  text-align:center ;
+
+}
+.pricing-table{
+  padding: 3%;
+}
+
+#cta{
+  padding: 6% 10% 10%  ;
+  background-color: #ff4c68;
+  text-align: center;
+
+}
+.cta-title {
+  font-family: "Montessrat", sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 1.5;
+
+}
+#footer{
+
+  padding: 6% 20%;
+  text-align: center;
+  
+}
+.footer-icons{
+  padding: 3% 1%;
+}
+#copyrights{
+  padding: 0 0 20px;
+}
+
+@media (max-width:1028px) {
+   .iphone-img{
+     position: static;
+     transform: rotate(0);
+
+   }
+
+
+}
+
+
+
+
+
